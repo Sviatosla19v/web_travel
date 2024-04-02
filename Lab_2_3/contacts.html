@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+    <title>Тури</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="header-background">
+          <h1>Travel</h1>
+        </div>
+      </header>
+
+    <nav>
+        <ul>
+            <li></li>
+            <li><a href="index.html">Головна сторінка</a></li>
+            <li><a href="tours.html">Тури</a></li>
+            <li><a href="advice.html">Поради</a></li>
+            <li><a href="contacts.html">Контакти</a></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section class="block">
+            <h2>Контакти</h2>
+            <form action="submit_form" method="post">
+                <label for="name">Введіть ім'я</label>
+                </br>
+                <input type="text" class="formInput" id="name" name="name" required>
+                </br>
+                <label for="surname">Введіть прізвище</label>
+                </br>
+                <input type="text" class="formInput" id="surname" surname="surname" required>
+                </br>
+                <label for="email">Введіть електронну пошту:</label>
+                </br>
+                <input type="email" class="formInput" id="email" name="email" required>
+                </br>
+                <label for="message">Введіть повідомлення:</label>
+                </br>
+                <textarea class="formInput" id="message" name="message" rows="4" required></textarea>
+                </br>
+                <input type="checkbox" id="checkbox" name="checkbox" required>
+                <label>Я даю згоду на обробку персональних даних</label>
+                </br>
+                <button type="submit">Submit</button>
+              </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Travel. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
